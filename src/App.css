@@ -1,0 +1,36 @@
+/* App.css */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+
+
+.cart-button {
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.cart-button img {
+  width: 5px; /* Adjust the size as needed */
+  margin-right: 5px;
+}
+
+
+.cart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
